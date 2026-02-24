@@ -1,18 +1,42 @@
-## Getting Started
+📘 Revisão de Fundamentos em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém meus estudos e revisões dos principais conceitos da linguagem Java, com foco na consolidação da base da programação orientada a objetos e lógica de programação.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+🚀 Conteúdos abordados
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+✅ Tipos de dados primitivos (byte, short, int, long, float, double, char, boolean)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+✅ Tipos de referência (String, Arrays)
 
-## Dependency Management
+✅ Estruturas condicionais (if, else)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+✅ Estruturas de repetição (while, do-while, for)
+
+✅ Métodos e método main
+
+✅ Manipulação de arrays
+
+✅ Sintaxe básica da linguagem
+
+
+
+🎯 Objetivo
+
+Reforçar os fundamentos da linguagem Java, praticando conceitos essenciais para evoluir em:
+
+Programação Orientada a Objetos (POO)
+
+Estrutura de dados
+
+Desenvolvimento backend
+
+Boas práticas de código
+
+
+
+📌 Sobre este repositório
+
+Este projeto faz parte do meu processo de aprendizado e revisão.
+O foco é escrever código simples, organizado e bem comentado para facilitar futuras consultas.
