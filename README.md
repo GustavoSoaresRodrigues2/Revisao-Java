@@ -2,8 +2,6 @@
 
 Este repositório contém meus estudos e revisões dos principais conceitos da linguagem Java, com foco na consolidação da base da programação orientada a objetos e lógica de programação.
 
-
-
 🚀 Conteúdos abordados
 
 ✅ Tipos de dados primitivos (byte, short, int, long, float, double, char, boolean)
@@ -20,8 +18,6 @@ Este repositório contém meus estudos e revisões dos principais conceitos da l
 
 ✅ Sintaxe básica da linguagem
 
-
-
 🎯 Objetivo
 
 Reforçar os fundamentos da linguagem Java, praticando conceitos essenciais para evoluir em:
@@ -33,8 +29,6 @@ Estrutura de dados
 Desenvolvimento backend
 
 Boas práticas de código
-
-
 
 📌 Sobre este repositório
 
