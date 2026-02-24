@@ -67,6 +67,12 @@ public class TiposdeDados {
         nomesArrayList1.add("Rodrigues");
         nomesArrayList1.remove(0); // remove de acordo com o indice.
         nomesArrayList1.get(0); // pega o valor de acordo com o indice.
+        nomesArrayList1.set(0, "Caique"); // Atualiza o valor de um indice.
+        int tamanhoArrayList = nomesArrayList1.size(); // Retorna o número de elementos. (Útil para loops)
+        System.out.println("Tamanho do ArrayList: " + tamanhoArrayList);
+        boolean existe = nomesArrayList1.contains("Gustavo"); // Verifica se o item existe. (true ou false)
+        System.out.println("Existe esse elemento? " + existe);
+        nomesArrayList1.clear(); //Remove todos os itens. (Lista fica vazia tamanho 0)
 
         // Laços de repetição
         // ⚠️ Se você esquecer de alterar a variável da condição, você entrará em um loop infinito.
@@ -107,6 +113,18 @@ public class TiposdeDados {
             System.out.println("Não pode beber álcool");
         } else {
             System.out.println("Pode beber Refri");
+        }
+
+        // O comando switch em Java é uma estrutura de controle de fluxo utilizada para selecionar um bloco de código a ser executado com base no valor de uma expressão (variável). Ele funciona como uma alternativa mais limpa e legível a múltiplos if-else-if encadeados quando se precisa comparar a mesma variável com várias opções fixas.
+        switch (numInt1) {
+            case 0:
+                System.out.println("Numero é ZERO");
+                break;
+            case 4154542:
+                System.out.println("Numero é 4154542");
+            default:
+                System.out.println("Não atendeu nenhum dos casos");
+                break;
         }
 
         // Casting

@@ -1,0 +1,52 @@
+# --- Java e Build Tools ---
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+*.nar
+
+# --- Maven ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# --- Gradle ---
+build/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# --- IDEs (IntelliJ, Eclipse, VSCode) ---
+.idea/
+*.iws
+*.iml
+*.ipr
+.settings/
+.project
+.classpath
+.metadata/
+.vs/
+.vscode/
+
+# --- Sistemas Operacionais ---
+.DS_Store
+Thumbs.db
+
+# --- Logs e Dados ---
+*.log
+logs/
+*.tmp
+*.temp
+
+# --- Variáveis de ambiente/Secrets ---
+.env
+application.properties
+application.yml

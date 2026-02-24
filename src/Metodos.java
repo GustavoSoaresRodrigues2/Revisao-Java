@@ -9,12 +9,19 @@ public class Metodos {
         novoCarro1.acelerar();
         novoCarro2.acelerar();
         novoCarro3.acelerar();
+        String numPortasCarro1 = novoCarro1.quantPortas(6);
+        String numPortasCarro2 = novoCarro1.quantPortas(4);
+        String numPortasCarro3 = novoCarro1.quantPortas(2);
+        System.out.println(numPortasCarro1);
+        System.out.println(numPortasCarro2);
+        System.out.println(numPortasCarro3);
     }
 }
 
 class Carro {
     // Um atributo em Java é uma variável declarada dentro de uma classe, mas fora de qualquer método, que representa uma característica, propriedade ou o estado de um objeto.
     String modelo;
+    int quantPortas;
 
     // Um construtor em Java é um método especial chamado automaticamente no momento da criação (instanciação) de um objeto, usando a palavra-chave new. Sua função principal é inicializar os atributos do objeto, garantindo que ele comece a ser usado em um estado válido.
     /*
@@ -31,5 +38,17 @@ class Carro {
     // Métodos em Java são blocos de código encapsulados dentro de uma classe que executam tarefas específicas, funcionando como funções ou procedimentos reutilizáveis. Eles organizam a lógica, facilitando a manutenção, leitura e depuração do código, podendo receber parâmetros (dados de entrada) e retornar valores após a execução.
     public void acelerar() {
         System.out.println("Acelerando o carro " + modelo);
+    }
+
+    public String quantPortas (int quantPortas) {
+        this.quantPortas = quantPortas;
+        
+        if (quantPortas > 4) {
+            return "Carro Grande";
+        } else if (quantPortas > 2) {
+            return "Carro médio";
+        } else {
+            return "Carro pequeno";
+        }
     }
 }

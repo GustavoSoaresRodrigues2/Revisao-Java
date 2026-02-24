@@ -14,6 +14,7 @@ public class ModificadoresDeAcesso {
         // acesso2.banir(); // (erro) metodo nao visivel
         acesso3.trocar("protected");
         acesso3.protegido();
+        
     }
 }
 
