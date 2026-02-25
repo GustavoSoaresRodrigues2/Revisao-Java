@@ -53,9 +53,10 @@ Este repositório contém meus estudos e revisões dos principais conceitos da l
 
 ## 📂 Estrutura do Repositório
 
-- `TiposdeDados.java` → Exemplos de tipos primitivos, arrays, `ArrayList`, laços de repetição, condicionais e casting  
-- `Metodos.java` → Exemplos de métodos, construtores, objetos e instância de classes  
-- `ModificadoresDeAcesso.java` → Exemplos de modificadores de acesso e visibilidade de métodos e atributos  
+- `TiposDeDados/` → Exemplos de **tipos primitivos** (byte, short, int, long, float, double, char, boolean) e **casting**.
+- `Arrays/` → Exemplos de **arrays simples e multidimensionais**.
+- `Colecoes/` → Exemplos de **ArrayList, HashMap e outras coleções**.
+- `EstruturasDeControle/` → Exemplos de **laços de repetição** (for, while, do-while) e **condicionais** (if, switch). 
 
 ---
 
