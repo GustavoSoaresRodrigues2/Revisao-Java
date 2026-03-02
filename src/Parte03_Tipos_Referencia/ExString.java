@@ -1,4 +1,4 @@
-package Parte02_Tipos_de_dados;
+package Parte03_Tipos_Referencia;
 
 public class ExString {
     public static void main(String[] args) {
