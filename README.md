@@ -16,8 +16,8 @@ Este repositório contém meus estudos e revisões dos principais conceitos da l
 - Inteiros: `byte`, `short`, `int`, `long`  
 - Ponto flutuante: `float`, `double`  
 - Caracteres: `char`  
-- Booleanos: `boolean`  
-- Strings e Arrays  
+- Booleanos.  
+- Strings e Arrays.  
 
 ### 🔄 Estruturas de Controle
 - Laços de repetição: `while`, `do-while`, `for`  
@@ -54,9 +54,8 @@ Este repositório contém meus estudos e revisões dos principais conceitos da l
 ## 📂 Estrutura do Repositório
 
 - `TiposDeDados/` → Exemplos de **tipos primitivos** (byte, short, int, long, float, double, char, boolean) e **casting**.
+- `EstruturasDeControle/` → Exemplos de **laços de repetição** (for, while, do-while) e **condicionais** (if, switch).
 - `Arrays/` → Exemplos de **arrays simples e multidimensionais**.
-- `Colecoes/` → Exemplos de **ArrayList, HashMap e outras coleções**.
-- `EstruturasDeControle/` → Exemplos de **laços de repetição** (for, while, do-while) e **condicionais** (if, switch). 
 
 ---
 

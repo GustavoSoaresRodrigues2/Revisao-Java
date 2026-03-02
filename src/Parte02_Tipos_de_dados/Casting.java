@@ -1,4 +1,4 @@
-package TiposDeDados;
+package Parte02_Tipos_de_dados;
 
 public class Casting {
     public static void main(ExString[] args) {
@@ -6,7 +6,8 @@ public class Casting {
         // CASTING EM JAVA
         // ==========================
         // Casting em Java é o processo de converter um tipo de dado em outro
-        // Como Java é fortemente tipada, essa conversão garante compatibilidade entre tipos diferentes
+        // Como Java é fortemente tipada, essa conversão garante compatibilidade entre tipos 
+        // diferentes
 
         // ------------------------------------------
         // 1. CASTING DE AMPLIAÇÃO (WIDENING) AUTOMÁTICO

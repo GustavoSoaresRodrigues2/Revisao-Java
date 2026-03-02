@@ -1,0 +1,46 @@
+História do Java
+
+Java surgiu em 1991 dentro do chamado Projeto Green, liderado por James Gosling na Sun Microsystems. 
+O objetivo inicial não era a criação de uma linguagem para a Web, mas sim o desenvolvimento de 
+software para dispositivos eletrônicos embarcados, como televisores interativos e outros equipamentos 
+inteligentes.
+
+O primeiro nome da linguagem era “Oak”. Posteriormente, em 1995, o nome foi alterado para “Java”, ano
+em que ocorreu seu lançamento oficial ao público.
+
+No contexto da década de 1990, as linguagens predominantes eram C e C++. Essas linguagens compilavam
+diretamente para código de máquina específico de cada sistema operacional e arquitetura de hardware.
+Isso significava que um programa precisava ser recompilado para cada plataforma. Além disso, o 
+gerenciamento manual de memória e o uso de ponteiros tornavam o desenvolvimento mais suscetível a 
+falhas como vazamentos de memória e buffer overflow.
+
+Java foi projetado para resolver esses problemas. Sua principal inovação técnica foi a introdução da 
+Máquina Virtual Java (JVM). Em vez de compilar o código diretamente para código de máquina, o 
+compilador Java (javac) transforma o código-fonte (.java) em bytecode (.class). Esse bytecode não é 
+específico de uma plataforma; ele é executado pela JVM, que traduz o bytecode para código de máquina
+adequado ao hardware onde está sendo executado.
+
+Esse modelo criou uma camada de abstração entre o programa e o sistema operacional, permitindo o 
+conceito conhecido como “Write Once, Run Anywhere” (WORA). A portabilidade depende da existência de 
+uma JVM compatível para cada sistema operacional e arquitetura.
+
+Em 2010, a Oracle Corporation adquiriu a Sun Microsystems, passando a ser responsável pelo 
+desenvolvimento e manutenção do Java. Desde então, a linguagem e a plataforma continuaram evoluindo 
+com melhorias na JVM, novas funcionalidades na linguagem e atualizações periódicas.
+
+É importante destacar que Java não é apenas uma linguagem, mas uma plataforma composta por três 
+elementos principais:
+
+        • JDK (Java Development Kit): conjunto de ferramentas para desenvolvimento, incluindo o 
+        compilador, ferramentas de depuração e utilitários.
+        • JRE (Java Runtime Environment): ambiente necessário para executar aplicações Java, contendo 
+        a JVM e as bibliotecas padrão.
+        • JVM (Java Virtual Machine): componente responsável por executar o bytecode, gerenciar 
+        memória (incluindo coleta de lixo), segurança e otimizações em tempo de execução.
+
+Do ponto de vista técnico, Java foi projetado com os seguintes objetivos: simplicidade (em comparação 
+com C++), orientação a objetos, segurança, robustez, portabilidade e suporte nativo a multithreading.
+
+Em resumo, a importância histórica do Java está na introdução de um modelo de execução baseado em 
+máquina virtual, que solucionou problemas críticos de portabilidade e gerenciamento de memória da 
+época, estabelecendo um padrão que influenciou diversas outras plataformas e linguagens posteriores.
