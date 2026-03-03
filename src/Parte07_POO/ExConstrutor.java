@@ -73,7 +73,6 @@ public class ExConstrutor {
         // Observações / erros comuns
         // ======================
         // ❌ Construtor não retorna valor, não usar 'void' ou outro tipo
-        // ❌ 'this' referencia o atributo do objeto atual 'this' referencia o atributo do objeto atual
         // ✅ Boas práticas:
         // - Use construtores para evitar atribuições manuais repetitivas
         // - Sobrecarga de construtores permite inicializar objetos de formas diferentes

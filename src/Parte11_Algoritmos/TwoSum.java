@@ -1,0 +1,31 @@
+package Parte11_Algoritmos;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class TwoSum {
+    public static void main(String[] args) {
+        /**
+         * 📝 Enunciado
+         * Crie um método que, dado um array de inteiros nums e um valor alvo target, retorne os índices de dois números que somam exatamente target.
+         * 
+         * 📌 Regras
+         * Não pode usar loops aninhados (O(n²))
+         * Deve usar HashMap para otimizar (O(n))
+         * Retornar primeira combinação encontrada
+         * 
+         * Considerar que sempre existe uma solução
+         */
+
+        List<Integer> numeros = Arrays.asList(2, 7, 11, 15, 18, 54, 84, 102);
+
+        
+    
+        
+    
+    
+    }
+}
