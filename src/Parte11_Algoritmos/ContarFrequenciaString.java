@@ -20,7 +20,7 @@ import java.util.Map;
  *
  * =========================================================
  */
-public class ContarFrequencia {
+public class ContarFrequenciaString {
 
     public static void main(String[] args) {
 
